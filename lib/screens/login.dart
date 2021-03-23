@@ -42,10 +42,8 @@ class _State extends State<LoginScreen> {
                 Container(
                   alignment: Alignment.centerLeft,
                   padding: EdgeInsets.all(10),
-                  child: Text(
-                    "Farmlever.",
-                    style: appTheme().textTheme.headline2,
-                  ),
+                  child:
+                      Text("Farmlever.", style: appTheme().textTheme.headline2),
                 ),
                 Container(
                   alignment: Alignment.centerLeft,

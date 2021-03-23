@@ -45,10 +45,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   Text(
                     "Good Morning \nHannah!",
-                    style: appTheme()
-                        .textTheme
-                        .headline6
-                        .copyWith(fontWeight: FontWeight.w900),
+                    style: appTheme().textTheme.headline6.copyWith(
+                        fontWeight: FontWeight.w900, color: Colors.white),
                   ),
                   SearchBar(),
                   Expanded(
