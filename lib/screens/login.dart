@@ -65,7 +65,6 @@ class _State extends State<LoginScreen> {
                   child: TextField(
                     controller: nameController,
                     decoration: InputDecoration(
-                      border: OutlineInputBorder(),
                       labelText: 'User Name',
                     ),
                   ),
@@ -76,7 +75,6 @@ class _State extends State<LoginScreen> {
                     obscureText: true,
                     controller: passwordController,
                     decoration: InputDecoration(
-                      border: OutlineInputBorder(),
                       labelText: 'Password',
                     ),
                   ),
