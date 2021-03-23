@@ -1,4 +1,5 @@
 import 'package:farmlever_test/screens/login.dart';
+import 'package:farmlever_test/theme/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 
@@ -39,11 +40,9 @@ class _SignUpState extends State<SignupScreen> {
                 alignment: Alignment.centerLeft,
                 padding: EdgeInsets.all(10),
                 child: Text(
-                  'Farmlever.',
-                  style: TextStyle(
-                      color: Colors.lightGreen,
-                      fontWeight: FontWeight.w500,
-                      fontSize: 36),
+                    "Farmlever.",
+                    style: appTheme().textTheme.headline2,
+                  ),
                 ),
               ),
               Container(
