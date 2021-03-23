@@ -1,5 +1,6 @@
 import 'package:farmlever_test/components/category_card.dart';
 import 'package:farmlever_test/components/search_bar.dart';
+import 'package:farmlever_test/theme/style.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -23,6 +24,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 //alignment: Alignment.centerLeft,
                 //image: AssetImage("assets/images/undraw_pilates_gpdb.png"),
                 ),
+          ),
+          Text(
+            "Good Morning \nHannah!",
+            style: appTheme()
+                .textTheme
+                .headline6
+                .copyWith(fontWeight: FontWeight.w900),
           ),
           SearchBar(),
           Expanded(
