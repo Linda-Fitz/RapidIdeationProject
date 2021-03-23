@@ -140,7 +140,10 @@ class _SignUpState extends State<SignupScreen> {
                     backgroundColor:
                         MaterialStateProperty.all<Color>(Colors.green),
                   ),
-                  child: Text('Sign up'),
+                  child: Text(
+                    "Sign up",
+                    style: appTheme().textTheme.subtitle1,
+                  ),
                   onPressed: () {
                     print(nameController.text);
                     print(passwordController.text);

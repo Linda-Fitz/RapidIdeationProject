@@ -94,6 +94,8 @@ class _State extends State<LoginScreen> {
                                 RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30.0),
                         )),
+                        backgroundColor:
+                            MaterialStateProperty.all<Color>(Colors.green),
                       ),
                       child: Text(
                         "Login",
