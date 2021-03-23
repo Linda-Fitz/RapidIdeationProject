@@ -31,7 +31,7 @@ class _SignUpState extends State<SignupScreen> {
           child: ListView(
             children: <Widget>[
               Container(
-                alignment: Alignment.bottomCenter,
+                alignment: Alignment.topLeft,
                 padding: EdgeInsets.all(10),
                 child: Image.asset('assets/images/farmsignup.png'),
               ),
@@ -62,7 +62,6 @@ class _SignUpState extends State<SignupScreen> {
                 child: TextField(
                   controller: nameController,
                   decoration: InputDecoration(
-                    border: OutlineInputBorder(),
                     labelText: 'User Name',
                   ),
                 ),
@@ -72,7 +71,6 @@ class _SignUpState extends State<SignupScreen> {
                 child: TextField(
                   controller: emailController,
                   decoration: InputDecoration(
-                    border: OutlineInputBorder(),
                     labelText: 'E-mail',
                   ),
                 ),
@@ -83,7 +81,6 @@ class _SignUpState extends State<SignupScreen> {
                   obscureText: true,
                   controller: passwordController,
                   decoration: InputDecoration(
-                    border: OutlineInputBorder(),
                     labelText: 'Password',
                   ),
                 ),
@@ -94,7 +91,6 @@ class _SignUpState extends State<SignupScreen> {
                   obscureText: true,
                   controller: passwordController2,
                   decoration: InputDecoration(
-                    border: OutlineInputBorder(),
                     labelText: 'Re-enter password',
                   ),
                 ),
