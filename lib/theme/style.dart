@@ -27,6 +27,8 @@ ThemeData appTheme() {
           fontSize: 24.0, fontFamily: 'Jellee', fontWeight: FontWeight.bold),
       headline6: TextStyle(
           fontSize: 20.0, fontFamily: 'Jellee', fontWeight: FontWeight.bold),
+      subtitle1: TextStyle(
+          fontSize: 18.0, fontFamily: 'Karla', fontWeight: FontWeight.normal),
       bodyText1: TextStyle(
           fontSize: 16.0, fontFamily: 'Karla', fontWeight: FontWeight.normal),
       bodyText2: TextStyle(

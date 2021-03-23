@@ -95,7 +95,10 @@ class _State extends State<LoginScreen> {
                           borderRadius: BorderRadius.circular(30.0),
                         )),
                       ),
-                      child: Text('Login'),
+                      child: Text(
+                        "Login",
+                        style: appTheme().textTheme.subtitle1,
+                      ),
                       onPressed: () => _login(context),
                     )),
                 Container(
