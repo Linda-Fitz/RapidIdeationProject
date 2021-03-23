@@ -3,13 +3,14 @@ import 'package:flutter/material.dart';
 ThemeData appTheme() {
   return ThemeData(
     // Define the default brightness and colors.
-    primaryColor: Colors.lime,
-    accentColor: Colors.red,
+    primaryColor: Color(0xFFBDCA32),
+    accentColor: Color(0xFFED6C66),
     hintColor: Colors.white,
     dividerColor: Colors.white,
-    buttonColor: Colors.lightGreen,
-    scaffoldBackgroundColor: Colors.green,
+    buttonColor: Color(0xFFBDCA32),
+    scaffoldBackgroundColor: Color(0xFF50685F),
     canvasColor: Colors.grey,
+
     // Define the default font family.
     fontFamily: 'Karla',
     // text styling for headlines, titles, bodies of text, and more.
