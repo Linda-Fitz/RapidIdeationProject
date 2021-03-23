@@ -1,4 +1,5 @@
 import 'package:farmlever_test/routes.dart';
+import 'package:farmlever_test/theme/style.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Farmlever App',
-      theme: ThemeData(),
+      theme: appTheme(),
       //home: OnBoardingScreen(),
       initialRoute: '/',
       routes: routes,
