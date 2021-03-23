@@ -9,7 +9,7 @@ ThemeData appTheme() {
     dividerColor: Colors.white,
     buttonColor: Colors.lightGreen,
     scaffoldBackgroundColor: Colors.green,
-    canvasColor: Colors.black,
+    canvasColor: Colors.grey,
     // Define the default font family.
     fontFamily: 'Karla',
     // text styling for headlines, titles, bodies of text, and more.
