@@ -50,7 +50,7 @@ class _SignUpState extends State<SignupScreen> {
                 alignment: Alignment.centerLeft,
                 padding: EdgeInsets.all(10),
                 child: Text(
-                  'Sign up',
+                  'Sign up!',
                   style: TextStyle(
                       color: Colors.grey,
                       fontWeight: FontWeight.w500,
