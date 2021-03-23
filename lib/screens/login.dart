@@ -46,7 +46,7 @@ class _State extends State<LoginScreen> {
                   padding: EdgeInsets.all(10),
                   child: Text(
                     "Welcome back!",
-                    style: appTheme().textTheme.headline6,
+                    style: appTheme().textTheme.headline4,
                   ),
                 ),
                 Container(

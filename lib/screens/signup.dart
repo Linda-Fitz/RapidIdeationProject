@@ -45,7 +45,7 @@ class _SignUpState extends State<SignupScreen> {
                 padding: EdgeInsets.all(10),
                 child: Text(
                   "Sign up!",
-                  style: appTheme().textTheme.headline6,
+                  style: appTheme().textTheme.headline4,
                 ),
               ),
               Container(
