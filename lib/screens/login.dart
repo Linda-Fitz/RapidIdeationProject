@@ -51,8 +51,8 @@ class _State extends State<LoginScreen> {
                   alignment: Alignment.centerLeft,
                   padding: EdgeInsets.all(10),
                   child: Text(
-                    'Welcome back!',
-                    style: TextStyle(fontWeight: FontWeight.w500, fontSize: 21),
+                    "Welcome back!",
+                    style: appTheme().textTheme.headline6,
                   ),
                 ),
                 Container(
