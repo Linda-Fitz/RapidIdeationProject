@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:farmlever_test/theme/style.dart';
 
 class CategoryCard extends StatelessWidget {
