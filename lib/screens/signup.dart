@@ -40,9 +40,8 @@ class _SignUpState extends State<SignupScreen> {
                 alignment: Alignment.centerLeft,
                 padding: EdgeInsets.all(10),
                 child: Text(
-                    "Farmlever.",
-                    style: appTheme().textTheme.headline2,
-                  ),
+                  "Farmlever.",
+                  style: appTheme().textTheme.headline2,
                 ),
               ),
               Container(
