@@ -54,10 +54,7 @@ class _State extends State<LoginScreen> {
                   padding: EdgeInsets.all(10),
                   child: Text(
                     'Welcome back!',
-                    style: TextStyle(
-                        color: Colors.grey,
-                        fontWeight: FontWeight.w500,
-                        fontSize: 21),
+                    style: TextStyle(fontWeight: FontWeight.w500, fontSize: 21),
                   ),
                 ),
                 Container(
@@ -99,8 +96,6 @@ class _State extends State<LoginScreen> {
                                 RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30.0),
                         )),
-                        backgroundColor:
-                            MaterialStateProperty.all<Color>(Colors.green),
                       ),
                       child: Text('Login'),
                       onPressed: () => _login(context),
