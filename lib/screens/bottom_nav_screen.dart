@@ -1,3 +1,4 @@
+import 'package:farmlever_test/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavScreen extends StatefulWidget {
@@ -7,7 +8,7 @@ class BottomNavScreen extends StatefulWidget {
 
 class _BottomNavScreenState extends State<BottomNavScreen> {
   final List _screens = [
-    Scaffold(),
+    HomeScreen(),
     Scaffold(),
     Scaffold(),
     Scaffold(),
