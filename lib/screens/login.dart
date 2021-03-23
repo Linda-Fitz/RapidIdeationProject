@@ -74,9 +74,10 @@ class _State extends State<LoginScreen> {
                   },
                   child: Text('Forgot Password?'),
                   style: ButtonStyle(
-                      foregroundColor:
-                          MaterialStateProperty.all<Color>(Colors.green),
-                      alignment: Alignment.topRight),
+                    foregroundColor:
+                        MaterialStateProperty.all<Color>(Colors.green),
+                    alignment: Alignment.topRight,
+                  ),
                 ),
                 Container(
                     height: 50,
@@ -106,6 +107,7 @@ class _State extends State<LoginScreen> {
                           'Sign up',
                           style: TextStyle(
                             color: Colors.green,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
                         onPressed: () => _signup(context),
