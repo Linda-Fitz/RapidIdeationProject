@@ -38,15 +38,23 @@ class _State extends State<LoginScreen> {
                 Container(
                   alignment: Alignment.centerLeft,
                   padding: EdgeInsets.all(10),
-                  child:
-                      Text("Farmlever.", style: appTheme().textTheme.headline2),
+                  child: Text(
+                    "Farmlever.",
+                    style: appTheme()
+                        .textTheme
+                        .headline2
+                        .copyWith(color: Color(0xFFBDCA32)),
+                  ),
                 ),
                 Container(
                   alignment: Alignment.centerLeft,
                   padding: EdgeInsets.all(10),
                   child: Text(
                     "Welcome back!",
-                    style: appTheme().textTheme.headline4,
+                    style: appTheme()
+                        .textTheme
+                        .headline4
+                        .copyWith(color: Color(0xFFF6F6F6)),
                   ),
                 ),
                 Container(
@@ -75,7 +83,7 @@ class _State extends State<LoginScreen> {
                   child: Text('Forgot Password?'),
                   style: ButtonStyle(
                     foregroundColor:
-                        MaterialStateProperty.all<Color>(Colors.green),
+                        MaterialStateProperty.all<Color>(Color(0xFFBDCA32)),
                     alignment: Alignment.topRight,
                   ),
                 ),
@@ -90,7 +98,7 @@ class _State extends State<LoginScreen> {
                           borderRadius: BorderRadius.circular(30.0),
                         )),
                         backgroundColor:
-                            MaterialStateProperty.all<Color>(Colors.green),
+                            MaterialStateProperty.all<Color>(Color(0xFFBDCA32)),
                       ),
                       child: Text(
                         "Login",
@@ -106,7 +114,7 @@ class _State extends State<LoginScreen> {
                         child: Text(
                           'Sign up',
                           style: TextStyle(
-                            color: Colors.green,
+                            color: Color(0xFFBDCA32),
                             fontWeight: FontWeight.bold,
                           ),
                         ),

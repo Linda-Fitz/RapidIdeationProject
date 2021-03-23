@@ -37,7 +37,10 @@ class _SignUpState extends State<SignupScreen> {
                 padding: EdgeInsets.all(10),
                 child: Text(
                   "Farmlever.",
-                  style: appTheme().textTheme.headline2,
+                  style: appTheme()
+                      .textTheme
+                      .headline2
+                      .copyWith(color: Color(0xFFBDCA32)),
                 ),
               ),
               Container(
@@ -45,7 +48,10 @@ class _SignUpState extends State<SignupScreen> {
                 padding: EdgeInsets.all(10),
                 child: Text(
                   "Sign up!",
-                  style: appTheme().textTheme.headline4,
+                  style: appTheme()
+                      .textTheme
+                      .headline4
+                      .copyWith(color: Color(0xFFF6F6F6)),
                 ),
               ),
               Container(
@@ -98,7 +104,7 @@ class _SignUpState extends State<SignupScreen> {
                         TextSpan(
                             text: 'Terms of Service',
                             style: TextStyle(
-                                color: Colors.green,
+                                color: Color(0xFFBDCA32),
                                 decoration: TextDecoration.underline),
                             recognizer: TapGestureRecognizer()
                               ..onTap = () {
@@ -106,12 +112,11 @@ class _SignUpState extends State<SignupScreen> {
                               }),
                         TextSpan(
                           text: ' and ',
-                          style: TextStyle(color: Colors.black),
                           children: <TextSpan>[
                             TextSpan(
                                 text: 'Privacy Policy',
                                 style: TextStyle(
-                                    color: Colors.green,
+                                    color: Color(0xFFBDCA32),
                                     decoration: TextDecoration.underline),
                                 recognizer: TapGestureRecognizer()
                                   ..onTap = () {
@@ -134,7 +139,7 @@ class _SignUpState extends State<SignupScreen> {
                       borderRadius: BorderRadius.circular(30.0),
                     )),
                     backgroundColor:
-                        MaterialStateProperty.all<Color>(Colors.green),
+                        MaterialStateProperty.all<Color>(Color(0xFFBDCA32)),
                   ),
                   child: Text(
                     "Sign up",
@@ -154,7 +159,7 @@ class _SignUpState extends State<SignupScreen> {
                       child: Text(
                         'Login',
                         style: TextStyle(
-                          color: Colors.green,
+                          color: Color(0xFFBDCA32),
                         ),
                       ),
                       onPressed: () => _onIntroEnd(context),
