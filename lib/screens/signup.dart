@@ -31,6 +31,8 @@ class _SignUpState extends State<SignupScreen> {
           child: ListView(
             children: <Widget>[
               Container(
+                alignment: Alignment.bottomCenter,
+                padding: EdgeInsets.all(10),
                 child: Image.asset('assets/images/farmsignup.png'),
               ),
               Container(

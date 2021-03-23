@@ -34,6 +34,8 @@ class _State extends State<LoginScreen> {
             child: ListView(
               children: <Widget>[
                 Container(
+                  alignment: Alignment.bottomCenter,
+                  padding: EdgeInsets.all(10),
                   child: Image.asset('assets/images/farmlogin.png'),
                 ),
                 Container(
