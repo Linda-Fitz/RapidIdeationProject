@@ -25,42 +25,64 @@ class _HomeScreenState extends State<HomeScreen> {
                 //image: AssetImage("assets/images/undraw_pilates_gpdb.png"),
                 ),
           ),
-          Text(
-            "Good Morning \nHannah!",
-            style: appTheme()
-                .textTheme
-                .headline6
-                .copyWith(fontWeight: FontWeight.w900),
-          ),
-          SearchBar(),
-          Expanded(
-            child: GridView.count(
-              crossAxisCount: 2,
-              childAspectRatio: .85,
-              crossAxisSpacing: 20,
-              mainAxisSpacing: 20,
-              children: <Widget>[
-                CategoryCard(
-                  title: "Plots",
-                  //svgSrc: "assets/icons/.svg",
-                  press: () {},
-                ),
-                CategoryCard(
-                  title: "Crops",
-                  //svgSrc: "assets/icons/.svg",
-                  press: () {},
-                ),
-                CategoryCard(
-                  title: "Weather",
-                  //svgSrc: "assets/icons/.svg",
-                  press: () {},
-                ),
-                CategoryCard(
-                  title: "Activities",
-                  //svgSrc: "assets/icons/.svg",
-                  press: () {},
-                ),
-              ],
+          SafeArea(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Align(
+                    alignment: Alignment.topRight,
+                    child: Container(
+                      alignment: Alignment.center,
+                      height: 52,
+                      width: 52,
+                      decoration: BoxDecoration(
+                        color: Colors.lime,
+                        shape: BoxShape.circle,
+                      ),
+                    ),
+                  ),
+                  Text(
+                    "Good Morning \nHannah!",
+                    style: appTheme()
+                        .textTheme
+                        .headline6
+                        .copyWith(fontWeight: FontWeight.w900),
+                  ),
+                  SearchBar(),
+                  Expanded(
+                    child: GridView.count(
+                      crossAxisCount: 2,
+                      childAspectRatio: .85,
+                      crossAxisSpacing: 20,
+                      mainAxisSpacing: 20,
+                      children: <Widget>[
+                        CategoryCard(
+                          title: "Plots",
+                          //svgSrc: "assets/icons/.svg",
+                          press: () {},
+                        ),
+                        CategoryCard(
+                          title: "Crops",
+                          //svgSrc: "assets/icons/.svg",
+                          press: () {},
+                        ),
+                        CategoryCard(
+                          title: "Weather",
+                          //svgSrc: "assets/icons/.svg",
+                          press: () {},
+                        ),
+                        CategoryCard(
+                          title: "Activities",
+                          //svgSrc: "assets/icons/.svg",
+                          press: () {},
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         ],
