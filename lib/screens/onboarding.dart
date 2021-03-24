@@ -1,4 +1,5 @@
 import 'package:farmlever_test/screens/login.dart';
+import 'package:farmlever_test/theme/style.dart';
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
@@ -85,14 +86,22 @@ class _OnBoardingPageState extends State<OnBoardingScreen> {
       showSkipButton: true,
       skipFlex: 0,
       nextFlex: 0,
-      skip: const Text('Skip', style: TextStyle(color: Colors.green)),
-      next: const Icon(Icons.arrow_forward, color: Colors.green),
-      done: const Text('Done', style: TextStyle(color: Colors.green)),
+      skip: const Text('Skip',
+          style: TextStyle(
+            color: Color(0xFFBDCA32),
+            fontWeight: FontWeight.bold,
+          )),
+      next: const Icon(Icons.arrow_forward, color: Color(0xFFBDCA32)),
+      done: const Text('Done',
+          style: TextStyle(
+            color: Color(0xFFBDCA32),
+            fontWeight: FontWeight.bold,
+          )),
       dotsDecorator: const DotsDecorator(
         size: Size(10.0, 10.0),
         color: Color(0xFFBDBDBD),
         activeSize: Size(22.0, 10.0),
-        activeColor: Colors.green,
+        activeColor: Color(0xFFED6C66),
         activeShape: RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(25.0)),
         ),
