@@ -39,13 +39,18 @@ class _OnBoardingPageState extends State<OnBoardingScreen> {
 
   @override
   Widget build(BuildContext context) {
-    const bodyStyle = TextStyle(fontSize: 14.0);
+    const bodyStyle = TextStyle(
+      fontSize: 14.0,
+    );
 
     const fullScreenPageDecoration = const PageDecoration(
-      titleTextStyle: TextStyle(fontSize: 28.0, fontWeight: FontWeight.w700),
+      titleTextStyle: TextStyle(
+          fontSize: 28.0,
+          fontWeight: FontWeight.w700,
+          color: Color(0xFFF6F6F6)),
       bodyTextStyle: bodyStyle,
       descriptionPadding: EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 16.0),
-      pageColor: Colors.white,
+      pageColor: Color(0xFF50685F),
       imagePadding: EdgeInsets.zero,
       bodyFlex: 1,
       imageFlex: 2,

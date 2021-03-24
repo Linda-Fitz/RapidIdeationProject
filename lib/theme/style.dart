@@ -5,7 +5,7 @@ ThemeData appTheme() {
     // Define the default brightness and colors.
     primaryColor: Color(0xFFBDCA32),
     accentColor: Color(0xFFED6C66),
-    hintColor: Colors.white,
+    hintColor: Color(0xFFF6F6F6),
     dividerColor: Colors.white,
     buttonColor: Color(0xFFBDCA32),
     scaffoldBackgroundColor: Color(0xFF50685F),
